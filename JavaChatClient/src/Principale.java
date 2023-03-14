@@ -9,7 +9,6 @@ public class Principale {
         Socket s;
 
         try {
-            //s = new Socket("172.21.210.53", 5999);
             s = new Socket("127.0.0.1", 5999);
             ioCommandes = new IOCommandes(s);
         } catch (IOException e) {
